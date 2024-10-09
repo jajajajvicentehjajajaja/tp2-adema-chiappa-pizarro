@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #385c73;
+    background-color: #f0f1f2;
 }
 
 
@@ -12,14 +12,19 @@ body{
     display: inline-block;
 }
 
-.palabras{
+#titulo{
     color: black;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto Mono", monospace;
+}
+
+.palabras{
+    color: white;
+    font-family: "Roboto Mono", monospace;
 }
 
 .palabras1{
     color: white;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto Mono", monospace;
 }
 
 #tituloprincipal{
@@ -27,13 +32,70 @@ body{
     color: white;
     font-family: "Roboto Mono", monospace;
     text-align: center;
+    
+}ul{
+    list-style: none;
+    font-size: 0;
 }
 
-#cuadrado{
-    background-color: #f0f1f2;
-    border: solid 3px black;
-    justify-content: center;
+li{
+    display: inline;
+    width: 25%;
+    position: relative;
+    font-size: 40px;
+    color: white;
 }
+
+h2 a{
+    text-align: center;
+}
+
+
+nav{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+}
+
+#cont-header__menu-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+
+#cont-header__menu ul li{
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+}
+
+#cont-header__menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#cont-header__menu ul li:hover{
+    border-bottom: solid 5px #39f005;
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+#cuadrado{
+    background-color: #4f7b8c;
+    border: solid 3px #233a49;
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+
 
 footer{
     background-color: #4f7b8c;
@@ -56,4 +118,9 @@ footer{
     font-optical-sizing: auto;
     font-weight: 10px;
     font-style: normal;
+}
+.presionar{
+    background-color: #233a49;
+    color: white;
+    border-radius: 2%;
 }

@@ -15,18 +15,35 @@
     <link rel="icon" href="">
 </head>
 <body>
-    <br>
-    <br>
-    <h1 id="tituloprincipal">Registro</h1>
-    <br>
+    <div >
+        <h1 id="tituloprincipal"><strong>REGISTRO</strong></h1>
+    </div>
+        <div>
+            <header class="cont-header">
+                <nav id="cont-header__menu">
+                    <ul id="cont-header__menu-list">
+                        <a href="../paginas/index.html"><li>Volver al menu</li></a>
+
+                    </ul>
+                </nav>
+            </header>
+        </div>
+ 
+    
     <form action=""method="post">
         <fieldset id="cuadrado">
-            <legend class="palabras">Datos personales</legend>
+            <legend id="titulo"><strong><u>Datos personales</u></strong></legend>
+            <br>
+            
             <label class="palabras" for="nombre">Nombre: </label>
             <input type="text" name="nombre" id="">
             <br>
             <br>
             <label class="palabras" for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="">
+            <br>
+            <br>
+            <label class="palabras" for="mail">E- Mail:</label>
             <input type="text" name="apellido" id="">
             <br>
             <br>
@@ -40,50 +57,25 @@
             <input type="radio" name="genero" id="">
             <br>
             <br>
-            <label class="palabras" for="mail">E- Mail:</label>
-            <input type="text" name="apellido" id="">
+          
+            <br>
+            <input type="checkbox" name="aceptar" id="" required>
+        <label class="palabras1" for="aceptar">Acepta Terminos y Condiciones</label>
+        <br>
+        <input class="presionar" type="reset" value="Limpiar">
+
+        <input class="presionar" type="submit" value="Enviar">
         </fieldset>
 
         <br>
-        <label class="palabras1" for="deporte">¿Que te gusto mas de la Reserva?</label>
-        <select name="deporte" id="">
-            <option value="Animales">Animales</option>
-            <option value="Plantas">Plantas</option>
-            <option value="PaseoTuristico">Paseo Turistico</option>
-            <option value="Lugar">Lugar</option>
-            <option value="ServicioPersonal">Servicio y Personal</option>
+    
 
         </select>
-        <br>
-        <br>
-        <label class="palabras1" for="">¿Porque elejiste esa opcion?</label>
-        <br>
-        <br>
-        <textarea itemid="caja"  name="comentario" id="" cols="30" rows="10" ></textarea>
-        <br>
-        <br>
-        <input type="checkbox" name="aceptar" id="" required>
-        <label class="palabras1" for="aceptar">Acepta Terminos y Condiciones</label>
-        <br>
-        <input type="reset" value="Limpiar">
-
-        <input type="submit" value="Enviar">
+        
+     
     </form>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div>
-        <footer>
-            <a href=""><h2 id="menu">Volver al Menu</h2></a>
-        </footer>
-    </div>
+  
 
 
 
