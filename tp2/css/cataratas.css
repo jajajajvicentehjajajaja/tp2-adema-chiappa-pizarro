@@ -122,14 +122,14 @@ header{
     background-color: #4f7b8c;
     grid-area: parrafo; 
     height: 100%;
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
     margin-left: 5%;
     font-size: 17px;
     margin-top: 1%;
     font-family: "Roboto Condensed", sans-serif;
     border-radius: 5%;
+    color: #fff;   
 }
-
 
 .cont-div-titulo1{
     grid-area: garganta;
@@ -220,6 +220,7 @@ header{
     margin-top: 1%;
     background-color: #4f7b8c;
     border-radius: 5%;
+    color: #fff;
 }
 
 footer{
