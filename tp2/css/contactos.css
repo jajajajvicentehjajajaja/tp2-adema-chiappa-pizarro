@@ -20,12 +20,43 @@ body{
 .palabras{
     color: white;
     font-family: "Roboto Mono", monospace;
+    position: relative;
+    border-bottom: 2px solid #f0f1f2;
+    margin: 30px;
 }
+
+form .username{
+    position: relative;
+    margin: 30px 0;
+    
+}
+
+
+
 
 .palabras1{
     color: white;
     font-family: "Roboto Mono", monospace;
 }
+
+input[type="submit"]{
+    width: 80%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+input[type="submit"]:hover{
+    border-color: #2f4a55;
+    transition: .5s;
+    
+}
+
 
 #tituloprincipal{
     background-color: #4f7b8c;
@@ -33,7 +64,8 @@ body{
     font-family: "Roboto Mono", monospace;
     text-align: center;
     
-}ul{
+}
+ul{
     list-style: none;
     font-size: 0;
 }
@@ -88,13 +120,15 @@ header{
     background-color: #4f7b8c;
     border: solid 3px #233a49;
     position: absolute;
-    height: 40%;
-    width: 40%;
+    height: 70%;
+    width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5%;
+    padding-bottom: 3%;
 }
+
 
 
 footer{
@@ -123,4 +157,5 @@ footer{
     background-color: #233a49;
     color: white;
     border-radius: 2%;
+   
 }
