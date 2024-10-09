@@ -23,18 +23,17 @@ ul{
 }
 
 li{
-    display: inline-block;
+    display: inline;
     width: 25%;
     position: relative;
     font-size: 20px;
     color: white;
 }
 
-ul ul{
-    position: absolute;
-    display: none;
-    background-color: black;
+h2 a{
+    text-align: center;
 }
+
 
 nav{
     background-color: black;
@@ -42,19 +41,14 @@ nav{
 
 header{
     background-color: black;
-    
 }
 
 #cont-header__menu-list{
     display: flex;
     justify-content: center;
-    column-gap: 5%;
+    column-gap: 10%;
 }
 
-#cont-header__menu ul{
-    list-style: none;
-    overflow: hidden;
-}
 
 #cont-header__menu ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -72,6 +66,7 @@ header{
     background-color: rgb(27, 27, 27);
 }
 
+
 main{
     display: grid;
     width: 100%;
@@ -88,12 +83,13 @@ main{
 .parrafos{
     font-size: 18px;
     text-align: center;
-    
+    align-items: center;
+    padding: 10% 10% 10% 10%;
     color: #022601;
 }
 
 .parrafos:hover{
-    animation: aparecer 3.5s infinite;
+    animation: aparecer 2.5s infinite;
 }
 
 .fotos1{
